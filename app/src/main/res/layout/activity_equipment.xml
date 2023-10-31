@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Equipment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Details"
+                android:textSize="48dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Available Details"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ear protection"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/earprotection" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hammer"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hack saw"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hacksaw" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boots"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/boots" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Multimeter"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/multimeter" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Srewdrivers"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/srewdrivers" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tape"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tape" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trouble lights"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/troublelights" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wiresand cables"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/wiresandcables" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wiring connectors"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/wiringconnectors" />
+
+
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button
+        android:id="@+id/notificationButton"
+        android:layout_width="250dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="591dp"
+        android:layout_marginBottom="89dp"
+        android:text="View Notificatoins"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonview"
+        android:layout_width="249dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="649dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="30dp"
+        android:text="View Appointments"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="599dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/circular_button_bg"
+        android:gravity="center"
+        android:text="BACK"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
