@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prof_Calendar"
+    android:background="@color/yellowhite">
+
+    <!-- TODO: Update blank fragment layout-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/nightblue">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/functionmainhead"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="25dp"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <CalendarView
+            android:id="@+id/calendarView1"
+            android:layout_width="match_parent"
+            android:layout_height="424dp"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/imageViewaddbtn"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:src="@drawable/addbtn"
+            android:layout_marginStart="300dp"
+            android:contentDescription="@string/addbtn101" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/rvmove"
+            android:backgroundTint="@color/nightblue"
+            android:textColor="@color/white"
+            android:alpha="0.7"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="italic"
+            android:text="View Schedules"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</FrameLayout>

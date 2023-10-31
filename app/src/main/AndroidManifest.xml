@@ -131,7 +131,7 @@
             android:name=".NearbyLaundry"
             android:exported="false"
             android:label="@string/title_activity_nearby_laundry"
-            android:theme="@style/Theme.ChatApp" />
+            android:theme="@style/Theme.UEEAPP" />
         <activity
             android:name=".LaundryMain"
             android:exported="false" />

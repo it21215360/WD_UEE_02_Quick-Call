@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.chatapp"
+    namespace = "com.example.ueeapp"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.chatapp"
+        applicationId = "com.example.ueeapp"
         minSdk = 30
         targetSdk = 33
         versionCode = 1
