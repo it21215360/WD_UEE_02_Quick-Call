@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">QuickCall</string>
+    <string name="welcome_back">Welcome Back\n</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="add_image">Add Image</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="select_user">Select User</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="online">Online</string>
+    <string name="service_Area">Service Area</string>
+    <string name="service_area">Service Area</string>
+    <string name="success">Success</string>
+
+    <string-array name="service_area_options">
+        <item>Colombo</item>
+        <item>Negombo</item>
+    </string-array>
+
+    <string-array name="serviceSpinner">
+        <item>All</item>
+        <item>Launderer</item>
+        <item>Plumber</item>
+        <item>Electrician</item>
+    </string-array>
+
+    <string name="welcome_to_quick_call">Welcome to Quick Call!</string>
+    <string name="choose_the_laundry_service_which_you_are_interested_in_today">Choose the Laundry Service, which you are interested in today.</string>
+    <string name="stain_removal">Stain Removal</string>
+    <string name="wash_and_fold">Wash and Fold</string>
+    <string name="dry_clean">Dry Clean</string>
+    <string name="iron">Iron</string>
+    <string name="title_activity_nearby_laundry">NearbyLaundry</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="order_id">Order ID :</string>
+    <string name="shop">Shop :</string>
+    <string name="no_of_clothes">No of Clothes :</string>
+    <string name="fragrance">Fragrance :</string>
+    <string name="delivery_date">Delivery Date :</string>
+    <string name="pick_up_date">Pick Up Date :</string>
+    <string name="total_amount">Total Amount :</string>
+    <string name="scheduled">Scheduled</string>
+    <string name="order_details">Order Details</string>
+    <string name="approve">Approve</string>
+    <string name="decline">Decline</string>
+    <string name="user_email">User Email:</string>
+    <string name="status">Status</string>
+    <string name="email_">Email</string>
+    <string name="message">message</string>
+    <string name="feedback">Feedback</string>
+    <string name="Customer_Satisfaction">Customer Satisfaction</string>
+    <string name="experience">"How was your experience \nwith this mobile app today? "</string>
+    <string name="SelectOne">Select One</string>
+    <string name="Fantastic">Fantastic</string>
+    <string name="Good">Good</string>
+    <string name="Ok">Ok</string>
+    <string name="Not_Great">Not Great</string>
+    <string name="Bad">Bad</string>
+    <string-array name="filter_options">
+        <item>Select Your Location</item>
+        <item>Ragama</item>
+        <item>Dehiwala</item>
+        <item>Seeduwa</item>
+        <item>Moratuwa</item>
+    </string-array>
+
+    <string-array name="ratingSpinner">
+        <item>Select</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="taskSpinner">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Not Much</item>
+    </string-array>
+
+    <string-array name="fragranceSpinner">
+        <item>Select Fragrance</item>
+        <item>Rose</item>
+        <item>Lavender</item>
+        <item>Citrus</item>
+        <item>Jasmine</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="functionmainhead">My Schedules</string>
+    <string name="navigationpage1">Home</string>
+    <string name="navigationpage2">Calendar</string>
+    <string name="navigationpage3">Chat</string>
+    <string name="navigationpage4">User</string>
+    <string name="prevmonth"><![CDATA[<]]></string>
+    <string name="displaymonth">Oct 2023</string>
+    <string name="nextmonth"><![CDATA[>]]></string>
+    <string name="sunday">SUN</string>
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THUR</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+    <string name="addbtn101">TODO</string>
+    <string name="dayofmonth">1</string>
+
+</resources>

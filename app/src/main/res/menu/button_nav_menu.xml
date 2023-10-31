@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/navigationpage1"
+        android:icon="@drawable/navhome"
+        android:id="@+id/Home"/>
+    <item android:title="@string/navigationpage2"
+        android:icon="@drawable/spp_calendar"
+        android:id="@+id/calendar"/>
+    <item android:title="@string/navigationpage3"
+        android:icon="@drawable/navbarchat"
+        android:id="@+id/chat"/>
+    <item android:title="@string/navigationpage4"
+        android:icon="@drawable/navuser"
+        android:id="@+id/u_acc"/>
+</menu>

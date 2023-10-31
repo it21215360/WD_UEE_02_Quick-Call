@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:padding="@dimen/_24sdp"
+    android:scrollbars="none"
+    tools:context=".activities.CustomerFeedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Customer_Satisfaction"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="@string/experience"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/_16ssp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/question_line"
+            android:text="@string/SelectOne"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_25sdp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box_shape"
+                android:text="@string/Fantastic"
+                android:textSize="@dimen/_16sdp"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box_shape"
+                android:text="@string/Good"
+                android:textSize="@dimen/_16sdp"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box_shape"
+                android:text="@string/Ok"
+                android:textSize="@dimen/_16sdp"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box_shape"
+                android:text="@string/Not_Great"
+                android:textSize="@dimen/_16sdp"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box_shape"
+                android:text="@string/Bad"
+                android:textSize="@dimen/_16sdp"
+                />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/sendResponseButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFC107"
+            android:text="SEND RESPONSE"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:cornerRadius="0dp"
+            app:rippleColor="#FFC107"
+            android:layout_marginTop="@dimen/_22sdp"/>
+    </LinearLayout>
+</ScrollView>

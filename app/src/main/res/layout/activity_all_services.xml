@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_2sdp"
+    tools:context=".activities.AllServices">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageSignOutTwo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Sign out"
+        android:onClick="signOut"
+        android:padding="@dimen/_6sdp"
+        android:src="@drawable/ic_logout"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/primary" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="OUR SERVICES"
+        android:textColor="@color/primary_text"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/laundryService"
+        android:layout_width="183dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="38dp"
+        android:contentDescription="Laundry Service"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/newlaundry" />
+
+    <ImageButton
+        android:id="@+id/plumbingService"
+        android:layout_width="183dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="9dp"
+        android:contentDescription="Plumbing Service"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/laundryService"
+        app:srcCompat="@drawable/newplumbing" />
+
+    <ImageButton
+        android:id="@+id/chatService"
+        android:layout_width="183dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Electrical Service"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/plumbingService"
+        app:layout_constraintTop_toBottomOf="@+id/electricalService"
+        app:srcCompat="@drawable/newchat" />
+
+    <ImageButton
+        android:id="@+id/electricalService"
+        android:layout_width="183dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Chat with Professionals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/laundryService"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/newelec" />
+
+    <Button
+        android:id="@+id/scanner"
+        android:layout_width="256dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="39dp"
+        android:backgroundTint="#F4F900"
+        android:text="SCAN QR CODE"
+        android:textColor="@color/primary_text"
+        android:textSize="24sp"
+        app:cornerRadius="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="Scan QR Code Button"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
